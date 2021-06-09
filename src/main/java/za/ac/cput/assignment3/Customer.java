@@ -7,7 +7,7 @@ package za.ac.cput.assignment3;
 
 /**
  *
- * @author Velenkosini
+ * @author Velenkosini Prince Jeza 218191669
  */
 public class Customer extends Stakeholder{
     private String firstName;

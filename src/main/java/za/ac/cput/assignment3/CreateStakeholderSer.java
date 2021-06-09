@@ -11,7 +11,7 @@ import java.io.ObjectOutputStream;
 
 /**
  *
- * @author Velenkosini
+ * @author Velenkosini Prince Jeza 218191669
  */
 public class CreateStakeholderSer {
     ObjectOutputStream output;
@@ -63,6 +63,13 @@ public class CreateStakeholderSer {
         CreateStakeholderSer obj = new CreateStakeholderSer();
         obj.openFile();
         obj.writeToFile();
+        
+        RunStakeholders fh = new RunStakeholders();
+        fh.readingFromSerializedFile();
+        fh.sortCustomerArrayList();
+        fh.writingToCustomerFile();
+        fh.sortSupplierArrayList();
+        fh.writingToSupplierFile();
     }//end main
     
 }

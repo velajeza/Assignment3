@@ -11,10 +11,11 @@ import java.io.ObjectOutputStream;
 import java.util.Formatter;
 
 /**
- *
- * @author Velenkosini
+ * I will cancel this class because I have found another way to create a .txt file
+ * @author Velenkosini Prince Jeza 218191669
  */
 public class CreateSupplier {
+    /*
     
     private Formatter x;
     
@@ -30,16 +31,16 @@ public class CreateSupplier {
     }
     
     public void addRecords(){
-        x.format("S270", "Grand Theft Auto", "Toyota", "Mid-size sedan");
-        x.format("S400", "Prime Motors", "Lexus", "Luxury sedan");
-        x.format("S300", "We got Cars", "Toyota", "10-seater minibus");
-        x.format("S350", "Auto Delight", "BMW", "Luxury SUV");
-        x.format("S290", "MotorMania", "Hyundai", "compact budget");
+        x.format("%s%s%s%s","S270", "Grand Theft Auto", "Toyota", "Mid-size sedan");
+        x.format("%s%s%s%s","S400", "Prime Motors", "Lexus", "Luxury sedan");
+        x.format("%s%s%s%s","S300", "We got Cars", "Toyota", "10-seater minibus");
+        x.format("%s%s%s%s","S350", "Auto Delight", "BMW", "Luxury SUV");
+        x.format("%s%s%s%s","S290", "MotorMania", "Hyundai", "compact budget");
         
     }
     
     public void closeFile(){
         x.close();
     }
-    
+    */
 }

@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author Velenkosini
+ * @author Velenkosini Prince Jeza 218191669
  */
 public class Stakeholder implements Serializable{
     private String stHolderId;
